@@ -62,7 +62,6 @@ body{
             color: #888; 
             border: none !important; 
             padding: 15px; 
-            font-weight: 600;
         }
         
         .nav-link.active.tab-eat { color: #2c3e50 !important; border-bottom: 4px solid #2c3e50 !important; background: white; }
