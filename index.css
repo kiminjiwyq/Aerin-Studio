@@ -1,0 +1,171 @@
+body{
+    font-family: sans-serif; color: #333;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: #d9d9d9;
+}
+
+/* Responsive fix for smaller screens */
+@media (max-width: 768px) {
+    .floating-cream {
+        width: 150px;
+        right: 0;
+        bottom: -20px;
+    }
+}
+
+.carousel-container {
+    position: relative;
+    max-width: 450px; /*image size */
+    margin: 0 auto;
+}
+
+/* The Cream Overlap */
+.floating-cream {
+    position: absolute;
+    width: 200px; /* Size of the cream */
+    bottom: -35px; /* Pulls it down over the edge */
+    right: -40px;  /* Pulls it right over the edge */
+    z-index: 10;
+    pointer-events: none;
+    filter: drop-shadow(5px 10px 15px rgba(0,0,0,0.1));
+}
+
+.purpose-title{
+    color: #5a7d8c;
+}
+
+
+
+.hero-section{
+    padding: 60px 0;
+    background-color: #f6f9fa;
+}
+.hero-title{
+    font-size: 2.5rem; font-weight: 500; color: #222;
+}
+.hero-title span{
+    color: #5a7d8c;
+}
+.btn-custom{
+    background-color: #d8e4e9; color: #4a6a77; border: none; border-radius: 20px; padding: 8px 20px; font-weight: 500;
+}
+.btn-custom:hover{
+    background-color: #c5d6de;
+}
+
+
+
+.carousel-indicators [data-bs-target] {
+    background-color: #d9d9d9;
+}
+
+/* Responsive fix for smaller screens */
+@media (max-width: 768px) {
+    .floating-cream {
+        width: 150px;
+        right: 0;
+        bottom: -20px;
+    }
+}
+
+.carousel-container {
+    position: relative;
+    max-width: 450px; /*image size */
+    margin: 0 auto;
+}
+
+/* The Cream Overlap */
+.floating-cream {
+    position: absolute;
+    width: 200px; /* Size of the cream */
+    bottom: -35px; /* Pulls it down over the edge */
+    right: -40px;  /* Pulls it right over the edge */
+    z-index: 10;
+    pointer-events: none;
+    filter: drop-shadow(5px 10px 15px rgba(0,0,0,0.1));
+}
+
+
+
+.hero-section{
+    padding: 60px 0;
+}
+.hero-title{
+    font-size: 2.5rem; font-weight: 500; color: #222;
+}
+.hero-title span{
+    color: #5a7d8c;
+}
+.btn-custom{
+    background-color: #d8e4e9; color: #4a6a77; border: none; border-radius: 20px; padding: 8px 20px; font-weight: 500;
+    text-decoration: none;
+    
+}
+.btn-custom:hover{
+    background-color: #c5d6de;
+}
+
+
+.purpose-title{
+    color: #5a7d8c;
+}
+
+
+.icon-box {
+    width: 60px;
+    height: 60px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.custom-icon{
+    color: #5a7d8c;
+}
+
+.bg-custom{
+    background-color:#658398 ;
+}
+
+
+
+
+
+.btn-outline {
+    border-color: #658398;
+    color: #658398;
+}
+
+
+.btn-outline:hover {
+    background-color: #658398;
+    color: white;
+}
+
+.idol-img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border: 3px solid white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: transform 0.3s ease, z-index 0s;
+}
+
+.idol-img:hover {
+    transform: scale(1.1);
+    z-index: 10;
+}
+
+.carousel-img{
+    width: 100%;
+            height: 450px;
+            object-fit: cover;
+            border-radius: 20px;
+}
+

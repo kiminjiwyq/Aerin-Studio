@@ -1,0 +1,167 @@
+:root {
+    --bg-light: #f8f9fa;
+    --box-bg: #d8e4e9;
+    --text-dark: #2c3e50;
+    --accent-blue: #5a7d8c;
+    --btn-hover: #7ba2b3;
+}
+ 
+body{
+    font-family: sans-serif; color: #333;
+}
+
+
+ 
+/* Header Section */
+.page-header {
+    background-color: var(--bg-light);
+    padding: 80px 0;
+    text-align: center;
+}
+.page-header h1 { color: var(--text-dark); font-weight: 700; margin-bottom: 10px; }
+.breadcrumb-text { color: var(--accent-blue); font-size: 0.9rem; }
+
+
+:root {
+    --accent-blue: #5a7d8c;
+    --text-accent: #8ba8b5;
+}
+
+.text-accent { color: var(--text-accent); }
+
+/* Main Image Styling */
+.main-model-img {
+    max-width: 500px;
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+}
+
+/* Glassmorphism Labels */
+.glass-label {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 12px;
+    padding: 10px 15px;
+    text-align: left;
+    min-width: 180px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.1);
+    z-index: 5;
+}
+
+.glass-label h6 {
+    margin: 0;
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #444;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    padding-bottom: 5px;
+}
+
+.glass-label p {
+    margin: 5px 0 0;
+    font-size: 0.75rem;
+    color: #666;
+}
+
+/* Position the labels specifically */
+.dry-skin { top: 10%; left: -30px; }
+.oily-skin { top: 35%; right: -40px; }
+.combination-skin { bottom: 25%; left: -60px; }
+.sensitive-skin { bottom: 10%; right: -20px; }
+
+/* Button Style */
+.btn-learn {
+    background-color: #d8e4e9;
+    color: #4a6a77;
+    border-radius: 20px;
+    padding: 10px 30px;
+    font-weight: 500;
+    border: none;
+    transition: 0.3s;
+}
+
+.btn-learn:hover {
+    background-color: #5a7d8c;
+    color: white;
+}
+
+/* Modal Sidebar Styling */
+.modal-sidebar {
+    min-width: 280px;
+}
+
+.border-accent {
+    border-color: var(--accent-blue) !important;
+}
+
+.nav-modal-item:hover{
+    border-inline-start: 4px solid;
+    border-inline-start-color: var(--accent-color);
+     padding-inline-start: 1rem;
+}
+
+/* Adjust for smaller screens */
+@media (max-width: 768px) {
+    .glass-label {
+        position: static;
+        margin-bottom: 10px;
+        min-width: 100%;
+    }
+    .main-model-img {
+        border-radius: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+/* Skin Concerns Css */
+.concern-img {
+    width: 100%;
+    max-width: 180px;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border: 5px solid white;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+/* Small Glass Labels for the grid */
+.glass-label-sm {
+    position: absolute;
+    bottom: 10px;
+    right: 15%;
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #5a7d8c;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    border: 1px solid rgba(255,255,255,0.5);
+}
+
+/* Modal sizing tweak */
+.min-vh-50 {
+    min-height: 50vh;
+}
+
+/* Sidebar hover effect */
+.modal-sidebar .nav-link:hover {
+    color: var(--accent-blue) !important;
+}
+
+/* Ensure the layout stacks nicely on mobile */
+@media (max-width: 576px) {
+    .concern-img {
+        max-width: 130px;
+    }
+    .glass-label-sm {
+        font-size: 0.7rem;
+        padding: 3px 10px;
+        right: 5%;
+    }
+}

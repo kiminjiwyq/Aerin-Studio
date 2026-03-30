@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aerin Studio | Skin Health</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="skinhealth.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="shortcut icon" href="https://i.pinimg.com/474x/8f/55/4f/8f554f19d9288582a3eab514e9490ec8.jpg" type="image/x-icon">
+</head>
+<body>
+   
+     <nav class="navbar navbar-expand-md py-4 position-sticky top-0 bg-white">
+        <a class="navbar-brand fw-bold fs-3" href="index.html"><img src="https://i.pinimg.com/736x/a1/4a/e4/a14ae46b19e61330b813312084d872af.jpg" width="100px" height="100px" alt=""></a>
+        <button class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#mainNav"><span class="navbar-toggler-icon"></span></button>
+
+
+        <div class="offcanvas offcanvas-start" id="mainNav">
+            <div class="offcanvas-header">
+                <a class="navbar-brand fw-bold fs-3" href="index.html"><img src="https://i.pinimg.com/736x/a1/4a/e4/a14ae46b19e61330b813312084d872af.jpg" width="100px" height="100px" alt=""></a>
+                <button class="btn btn-close" data-bs-dismiss="offcanvas"></button>
+            </div>
+            
+            <div class="offcanvas-body justify-content-center" >
+                <ul class="navbar-nav gap-4">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="skinhealth.html">Skin Health</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gutshealth.html">Guts Health</a></li>
+                    <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+ 
+    <section class="page-header">
+        <div class="container">
+            <h1>Skin Types & Concerns</h1>
+            <p class="breadcrumb-text">Home <span class="text-muted">/ Skin Health</span></p>
+        </div>
+    </section>
+    
+
+    <section class="skin-type-discovery py-5">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-5">
+                <h2 class="fw-bold display-6 mb-4">Find Out Your <span class="text-accent">Skin Type?</span></h2>
+                <p class="text-muted mb-4">Discover your skin type and start a routine that works for you. Take the first step toward glowing, healthy skin.</p>
+                
+                <div class="quote-box mb-4 position-relative ps-4">
+                    <i class="bi bi-quote fs-1 position-relative text-secondary opacity-25"></i>
+                    <p class="fst-italic text-secondary">Good skincare starts with understanding your skin.</p>
+                    <i class="bi bi-quote fs-1 text-secondary opacity-25 float-end" style="transform: rotate(180deg);"></i>
+                </div>
+                
+                <button class="btn btn-learn mt-3" data-bs-toggle="modal" data-bs-target="#skinTypeModal">Learn More</button>
+            </div>
+
+            <div class="col-md-7 position-relative text-center">
+                <div class="image-wrapper d-inline-block position-relative">
+                    <img src="https://i.pinimg.com/1200x/f1/ba/b0/f1bab099b29b257ffcba6cfc6480d1e5.jpg" alt="Skin Types" class=" rounded-circle" height="600px">
+                    
+                    <div class="glass-label dry-skin">
+                        <h6>Dry Skin</h6>
+                        <p>Feels tight, rough, and sometimes flaky.</p>
+                    </div>
+                    <div class="glass-label oily-skin">
+                        <h6>Oily Skin</h6>
+                        <p>Shiny appearance with enlarged pores.</p>
+                    </div>
+                    <div class="glass-label combination-skin">
+                        <h6>Combination Skin</h6>
+                        <p>Oily on the T-zone and dry on cheeks.</p>
+                    </div>
+                    <div class="glass-label sensitive-skin">
+                        <h6>Sensitive Skin</h6>
+                        <p>Easily irritated and reactive.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="modal fade" id="skinTypeModal" >
+    <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-content border-0 rounded-5 overflow-hidden shadow-lg">
+            <div class="modal-header bg-light border-0 py-4 px-5">
+                <h3 class="modal-title fw-bold">The Ultimate <span class="text-accent">Guide</span> To Find Out Your <span class="text-accent">Skin Type</span></h3>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" ></button>
+            </div>
+            <div class="modal-body p-0">
+                <div class="d-flex flex-column flex-md-row">
+                    <div class="modal-sidebar p-5 bg-light border-end">
+                        <ul class="nav flex-column gap-4 fw-bold text-secondary">
+                            <li class="nav-modal-item ">
+                                <a href="#finding" class="nav-link p-0 text-dark">Why Finding Your Skin Type Matters?</a>
+                            </li>
+                            <li class="nav-modal-item">
+                                <a href="#types" class="nav-link p-0 text-secondary">The 4 Main Skin Types</a>
+                            </li>
+                            <li class="nav-modal-item ">
+                                <a href="#" class="nav-link p-0 text-secondary">How to Identify Your Skin Type</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="modal-main-content p-5 flex-grow-1 bg-white">
+                        <div class="" id="finding">
+                            <h4 class="fw-bold mb-3">Understanding Your Skin</h4>
+                            <p class="text-muted">
+                                Understanding your skin type is the foundation of good skincare. When you know your skin, you can:
+                                <ul class="text-muted">
+                                    <li>Choose the right products</li>
+                                    <li>Avoid irritation and breakouts</li>
+                                    <li>Build a routine that actually works</li>
+                                    <li>Keep your skin balanced, calm, and healthy</li>
+                                </ul>
+                            </p>
+                        </div>
+                        <br>
+                        <div class="" id="types">
+                            <h4 class="fw-bold mb-3">The 4 Main Skin Types</h4>
+                                <ol type="1." class="text-muted">
+                                    <li>Normal Skin
+                                        <p>Balanced, not too oily or dry. Smooth texture with minimal breakouts.</p>
+                                    </li>
+                                    <li>Oily Skin
+                                        <p>Produces excess sebum. Skin may look shiny, with enlarged pores and frequent breakouts.</p>
+                                    </li>
+                                    <li>Dry Skin
+                                        <p>Feels tight or rough. May have flaking, dullness, or sensitivity.</p>
+                                    </li>
+                                    <li>Combination Skin
+                                        <p>A mix of both—usually oily in the T-zone (forehead, nose, chin) and dry on the cheeks.</p>
+                                    </li>
+                                </ol>
+                        </div>
+                        <br>
+                        <div class="" id="identify">
+                            <h4 class="fw-bold mb-3">How to Identify Your Skin Type</h4>
+                            <p>Try this simple method:</p>
+                                <ol type="1." class="text-muted">
+                                    <li>Wash your face with a gentle cleanser</li>
+                                    <li>Don’t apply any products</li>
+                                    <li>Wait 1 hour</li>
+                                    <li>Observe:
+                                        <ul>
+                                            <li>Shiny all over → Oily</li>
+                                            <li>Tight and flaky → Dry</li>
+                                            <li>Shine only in T-zone → Combination</li>
+                                            <li>Comfortable, balanced → Normal</li>
+                                        </ul>
+                                    </li>
+                                </ol>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Skin Concerns Section-->
+<section class="skin-concerns py-5 bg-white">
+    <div class="container">
+        <div class="row align-items-center">
+            
+            <div class="col-md-6 mb-5 mb-md-0">
+                <div class="concern-grid">
+                    <div class="row g-4">
+                        <div class="col-6 position-relative text-center">
+                            <img src="https://i.pinimg.com/736x/41/d7/dd/41d7dd52416f5721cc4759092db6a6a6.jpg" class="concern-img rounded-circle" alt="Acne">
+                            <div class="glass-label-sm">Acne?</div>
+                        </div>
+                        <div class="col-6 position-relative text-center">
+                            <img src="https://i.pinimg.com/1200x/2c/33/ce/2c33ce17846406808f180608abc5da79.jpg" class="concern-img rounded-circle" alt="Blackheads">
+                            <div class="glass-label-sm">Blackheads?</div>
+                        </div>
+                        <div class="col-6 position-relative text-center">
+                            <img src="https://i.pinimg.com/736x/29/77/5a/29775af660e2371885dfc4abc537d75d.jpg" class="concern-img rounded-circle" alt="Fungal">
+                            <div class="glass-label-sm">Fungal?</div>
+                        </div>
+                        <div class="col-6 position-relative text-center">
+                            <img src="https://i.pinimg.com/736x/06/a8/7d/06a87d8847098cc48b27a4ea1b1eba91.jpg" class="concern-img rounded-circle" alt="Redness">
+                            <div class="glass-label-sm">Redness?</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 ps-md-5">
+                <h2 class="fw-bold display-6">Common <span class="text-accent">Skin Concerns</span></h2>
+                <p class="text-muted my-4">Understand your skin concerns and learn how to treat them effectively without the guesswork.</p>
+                <button class="btn btn-learn" data-bs-toggle="modal" data-bs-target="#concernModal">Learn More</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="modal fade" id="concernModal" >
+    <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-content border-0 rounded-5 overflow-hidden shadow-lg">
+            <div class="modal-header bg-light border-0 py-4 px-5">
+                <h3 class="modal-title fw-bold">The Ultimate <span class="text-accent">Guide</span> To Find Out Your <span class="text-accent">Skin Type</span></h3>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" ></button>
+            </div>
+            <div class="modal-body p-0">
+                <div class="d-flex flex-column flex-md-row">
+                    <div class="modal-sidebar p-5 bg-light border-end">
+                        <ul class="nav flex-column gap-4 fw-bold text-secondary">
+                            <li class="nav-modal-item ">
+                                <a href="#finding" class="nav-link p-0 text-dark">Why Finding Your Skin Type Matters?</a>
+                            </li>
+                            <li class="nav-modal-item">
+                                <a href="#types" class="nav-link p-0 text-secondary">The 4 Main Skin Types</a>
+                            </li>
+                            <li class="nav-modal-item ">
+                                <a href="#" class="nav-link p-0 text-secondary">How to Identify Your Skin Type</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="modal-main-content p-5 flex-grow-1 bg-white">
+                        <div class="" id="finding">
+                            <h4 class="fw-bold mb-3">Common Skin Concerns</h4>
+                            <p class="text-muted">
+                                Your skin type is just the beginning—skin concerns can affect anyone, regardless of type.
+                                <ul class="text-muted">
+                                    <li>Acne & breakoutss</li>
+                                    <li>Redness & sensitivity</li>
+                                    <li>Excess oil & clogged pores</li>
+                                    <li>Uneven texture</li>
+                                    <li>Dark spots & hyperpigmentation</li>
+                                </ul>
+                            </p>
+                        </div>
+                        <br>
+                        <div class="" id="types">
+                            <h4 class="fw-bold mb-3">What Might Be Causing Them</h4>
+                            <p>Understanding the cause helps you treat your skin more effectively:</p>
+                                <ol type="1." class="text-muted">
+                                    <li>Hormones → breakouts, excess oil</li>
+                                    <li>Weather changes → dryness, sensitivity</li>
+                                    <li>Wrong products → irritation, clogged pores</li>
+                                    <li>Dehydration → dull, tight skin</li>
+                                    <li>Stress & lack of sleep → acne, uneven tone</li>
+                                    <li>Sun exposure → dark spots, premature aging</li>
+                                </ol>
+                        </div>
+                        <br>
+                        <div class="" id="identify">
+                            <h4 class="fw-bold mb-3">Simple, Effective Solutions</h4>
+                            <p>Keep your routine minimal, gentle, and consistent:</p>
+                                <ol type="1." class="text-muted">
+                                    <li>For Acne & Breakouts
+                                        <ul>
+                                            <li>Use gentle cleansers</li>
+                                            <li>Look for ingredients like salicylic acid or tea tree</li>
+                                            <li>Avoid over-cleansing</li>
+                                        </ul>
+                                    </li>
+
+                                    <li>For Dryness & Dehydration
+                                        <ul>
+                                            <li>Use hydrating toners & serums</li>
+                                            <li>Look for hyaluronic acid, glycerin</li>
+                                            <li>Seal with a moisturizer</li>
+                                        </ul>
+                                    </li>
+
+                                    <li>For Oily Skin & Pores
+                                        <ul>
+                                            <li>Use lightweight, non-comedogenic products</li>
+                                            <li>TTry niacinamide</li>
+                                            <li>Don’t skip moisturizer</li>
+                                            
+                                        </ul>
+                                    </li>
+
+                                    <li>For Sensitivity & Redness
+                                        <ul>
+                                            <li>Choose calming ingredients (centella, aloe)</li>
+                                            <li>Avoid harsh exfoliants</li>
+                                            <li>Keep routine simple</li>
+                                            
+                                        </ul>
+                                    </li>
+
+                                    <li>For Dark Spots & Uneven Tone
+                                        <ul>
+                                            <li>Use sunscreen daily</li>
+                                            <li>Try vitamin C or niacinamide</li>
+                                            <li>Be consistent and patient</li>
+                                        </ul>
+                                    </li>
+                                </ol>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+   
+    <section id="footer">
+            <footer class="footer mt-5">
+            <div class="container">
+                <div class="row">
+                    
+                    <div class="col-lg-3 footer-logo-info text-md-center text-sm-center">
+                        <img class="mb-4 footer-logo  text-md-center text-sm-center" src="https://i.pinimg.com/736x/a1/4a/e4/a14ae46b19e61330b813312084d872af.jpg" width="110px" height="110px" alt="">
+                        <p class="footer-logo-text">Learn to discover, grasp and nourish your skin here.</p>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <h6 class="d-none d-lg-block">Navigation</h6>
+                        <ul class="footer-links d-none d-lg-block">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="index.html">Pages</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="contact.html">Services</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <h6 class="d-none d-lg-block">Services</h6>
+                        <ul class="footer-links d-none d-lg-block">
+                            <li><a href="contact.html">Contact Us</a></li>
+                            <li><a href="faq.html">FAQs</a></li>
+                            <li><a href="contact.html">Booking</a></li>
+                            <li><a href="index.html #footer">Pages</a></li>
+                        </ul>
+                    </div> 
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <h6 class="d-none d-lg-block">Quick Links</h6>
+                        <ul class="footer-links d-none d-lg-block">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="contact.htl">Blog</a></li>
+                            <li><a href="index.html #footer">404</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 accordion-footer-element">
+                        <div class="container d-lg-none d-md-block d-sm-block">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <div class="accordion" id="footerAccordion">
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#navigation">Navigation</button>
+                                            </h2>
+                                            <div class="accordion-collapse collapse" id="navigation" data-bs-parent="#footerAccordion">
+                                                <div class="accordion-body">
+                                                    <div class="row">
+                                                        <div class="col-md-8">
+                                                            <ul class="footer-links">
+                                                                <li><a href="index.html">Home</a></li>
+                                                                <li><a href="index.html #footer">Pages</a></li>
+                                                                <li><a href="about.html">About Us</a></li>
+                                                                <li><a href="about.html">Services</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#services">Services</button>
+                                            </h2>
+                                            <div class="accordion-collapse collapse" id="services" data-bs-parent="#footerAccordion">
+                                                <div class="accordion-body">
+                                                    <div class="row">
+                                                        <div class="col-md-8">
+                                                            <ul class="footer-links">
+                                                                <li><a href="contact.html">Contact Us</a></li>
+                                                                <li><a href="faq.html">FAQs</a></li>
+                                                                <li><a href="contact.html">Booking</a></li>
+                                                                <li><a href="index.html #footer">Pages</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#quick-links">Quick Links</button>
+                                            </h2>
+                                            <div class="accordion-collapse collapse" id="quick-links" data-bs-parent="#footerAccordion">
+                                                <div class="accordion-body">
+                                                    <div class="row">
+                                                        <div class="col-md-8">
+                                                            <ul class="footer-links">
+                                                                <li><a href="index.html">Home</a></li>
+                                                                <li><a href="contact.html">Contact</a></li>
+                                                                <li><a href="about.html">Blog</a></li>
+                                                                <li><a href="index.html #footer">404</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                <div class="row contact-info align-items-center mt-4 border-bottom pb-4">
+                    <div class="col-lg-3 col-md-12">
+                        <i class="bi bi-geo-alt-fill me-2" data-bs-toggle="tooltip" data-bs-title="Address"> </i> Mayangon, Yangon, MM
+                    </div>
+                    <div class="col-lg-3 col-md-12">
+                        <i class="bi bi-telephone-fill me-2" data-bs-toggle="tooltip" data-bs-title="Phone No"></i> +95 9256129389
+                    </div>
+                    <div class="col-lg-3 col-md-12">
+                        <i class="bi bi-envelope-fill me-2" data-bs-toggle="tooltip" data-bs-title="Gmail"></i> aerinstudio@gmail.com
+                    </div>
+                    
+                    <div class="col-lg-3 col-md-12 text-md-end social-icons">
+                        <i class="bi bi-telegram" data-bs-toggle="tooltip" data-bs-title="Telegram"></i>
+                        <i class="bi bi-facebook" data-bs-toggle="tooltip" data-bs-title="Facebook"></i>
+                        <i class="bi bi-messenger"data-bs-toggle="tooltip" data-bs-title="Messenger"></i>
+                    </div>
+                </div>
+            
+                <div class="py-4 text-center">
+                    <small class="text-muted">&copy; 2026 Aerin Studio &bull; All Rights Reserved</small>
+                </div>
+            </div>
+        </footer>
+    </section>
+                    
+ 
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+    <script>
+    const tooltips = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+    tooltips.forEach(t => {new bootstrap.Tooltip(t)});
+    </script>
+ 
+</body>
+</html>

@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aerin Studio | Guts Health</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="gutshealth.css">
+    <link rel="shortcut icon" href="https://i.pinimg.com/474x/8f/55/4f/8f554f19d9288582a3eab514e9490ec8.jpg" type="image/x-icon">
+</head>
+<body>
+ 
+    <nav class="navbar navbar-expand-md py-4 position-sticky top-0 bg-white">
+        <a class="navbar-brand fw-bold fs-3" href="index.html"><img src="https://i.pinimg.com/736x/a1/4a/e4/a14ae46b19e61330b813312084d872af.jpg" width="100px" height="100px" alt=""></a>
+        <button class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#mainNav"><span class="navbar-toggler-icon"></span></button>
+
+
+        <div class="offcanvas offcanvas-start" id="mainNav">
+            <div class="offcanvas-header">
+                <a class="navbar-brand fw-bold fs-3" href="index.html"><img src="https://i.pinimg.com/736x/a1/4a/e4/a14ae46b19e61330b813312084d872af.jpg" width="100px" height="100px" alt=""></a>
+                <button class="btn btn-close" data-bs-dismiss="offcanvas"></button>
+            </div>
+            
+            <div class="offcanvas-body justify-content-center" >
+                <ul class="navbar-nav gap-4">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="skinhealth.html">Skin Health</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="gutshealth.html">Guts Health</a></li>
+                    <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Guts Health</h1>
+            <p class="breadcrumb-text">Home <span class="text-muted">/ Guts Health</span></p>
+        </div>
+    </section>
+    
+    <br>
+
+    <section class="microbiome-section py-5" >
+    <div class="container">
+
+        
+        <div class="text-center mb-5">
+            <h2 class="microbiome-title">
+                Understanding the Microbiome
+            </h2>
+        </div>
+
+        <div class="row align-items-center text-center text-lg-start">
+
+            
+            <div class="col-lg-4">
+
+                <div class="microbiome-item mb-5">
+                    <i class="bi bi-snow microbiome-icon"></i>
+                    <h5>Diversity</h5>
+                    <p>
+                        A diverse range of bacteria is a sign of a healthy,
+                        resilient ecosystem.
+                    </p>
+                </div>
+
+                <div class="microbiome-item">
+                    <i class="bi bi-activity microbiome-icon"></i>
+                    <h5>Metabolism</h5>
+                    <p>
+                        Your gut bacteria help break down food and
+                        produce essential vitamins.
+                    </p>
+                </div>
+
+            </div>
+
+            
+            <div class="col-lg-4 text-center my-4 my-lg-0">
+
+                <img src="https://i.pinimg.com/736x/6e/48/b8/6e48b8eb5503867b8d725770e7c7717f.jpg"
+                     alt=""
+                     class="microbiome-image img-fluid rounded">
+
+            </div>
+
+            <!-- RIGHT SIDE -->
+            <div class="col-lg-4">
+
+                <div class="microbiome-item mb-5">
+                    <i class="bi bi-shield-check microbiome-icon"></i>
+                    <h5>Immunity</h5>
+                    <p>
+                        70% of your immune system is located right in your gut.
+                    </p>
+                </div>
+
+                <div class="microbiome-item">
+                    <i class="bi bi-plus-lg microbiome-icon"></i>
+                    <h5>Healthy Gut Signs</h5>
+                    <p>
+                        Regular bowel movements, minimal discomfort
+                        (gas/bloating), and stable energy.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+    
+
+
+    <section class="py-5">
+        <div class="container">
+            <div class="row g-4">
+                
+                <div class="col-md-4">
+                    <div class="card concern-card p-4 shadow-sm" style="background-color:#e7f1f5;" data-bs-toggle="modal" data-bs-target="#acneModal">
+                        <div class="icon-circle"><i class="bi bi-virus2 fs-3 icon-custom"></i></div>
+                        <h4 class="fw-bold text-center" style="color: #354c57;" >Acne & Pimples</h4>
+                        <p class="text-muted text-center small">Breakouts are often a sign of gut inflammation. See what to eat to calm your skin.</p>
+                        <div class="text-center mt-3">
+                            <span class="btn btn-sm btn-outline  rounded-pill">Learn More</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card concern-card p-4 shadow-sm" style="background-color: #e7f1f5;" data-bs-toggle="modal" data-bs-target="#dullnessModal">
+                        <div class="icon-circle"><i class="bi bi-brightness-high fs-3 icon-custom"></i></div>
+                        <h4 class="fw-bold text-center" style="color: #354c57;">Dullness</h4>
+                        <p class="text-muted text-center small">Tired skin needs antioxidants and vitamins. Discover the "Glow Foods" your gut loves.</p>
+                        <div class="text-center mt-3">
+                            <span class="btn btn-sm btn-outline rounded-pill">Learn More</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card concern-card p-4 shadow-sm" style="background-color: #e7f1f5;" data-bs-toggle="modal" data-bs-target="#dryModal">
+                        <div class="icon-circle"><i class="bi bi-droplet fs-3 icon-custom"></i></div>
+                        <h4 class="fw-bold text-center" style="color: #354c57;" >Dry & Flaky</h4>
+                        <p class="text-muted text-center small">Hydrate your cells from the inside with healthy fats and moisture-locking nutrients.</p>
+                        <div class="text-center mt-3">
+                            <span class="btn btn-sm btn-outline rounded-pill">Learn More</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--Acne Modal -->
+    <div class="modal fade" id="acneModal">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content shadow-lg">
+                <div class="modal-header border-0 p-4">
+                    <h3 class="">Acne & Guts Health</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body p-0">
+                    <ul class="nav nav-tabs nav-fill" id="acneTabs">
+                        <li class="nav-item">
+                            <button class="nav-link active tab-eat" data-bs-toggle="tab" data-bs-target="#acne-eat">WHAT TO EAT</button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="nav-link tab-avoid" data-bs-toggle="tab" data-bs-target="#acne-avoid">WHAT TO AVOID</button>
+                        </li>
+                    </ul>
+
+                    <div class="tab-content p-4">
+                        <div class="tab-pane fade show active" id="acne-eat">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <img src="https://i.pinimg.com/736x/0c/9d/81/0c9d810cadf83cb3cca51d5dbc46c1ce.jpg" class="food-img mb-2" alt="Ginger">
+                                    <h6 class="fw-bold">Ginger & Turmeric</h6>
+                                    <p class="small text-muted">Powerful anti-inflammatories that kill acne-causing bacteria from the inside.</p>
+                                </div>
+                                <div class="col-md-6">
+                                    <img src="https://i.pinimg.com/1200x/0c/35/24/0c3524d14c957e257b2947802114df9c.jpg" class="food-img mb-2" alt="Fatty Fish">
+                                    <h6 class="fw-bold">Fatty Fish (Omega-3)</h6>
+                                    <p class="small text-muted">Salmon and mackerel help regulate oil production and soothe red, angry pimples.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="acne-avoid">
+                            <div class="accordion accordion-flush" id="acneAvoidAccel">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed fw-bold" data-bs-toggle="collapse" data-bs-target="#sugar">Refined Sugars</button>
+                                    </h2>
+                                    <div id="sugar" class="accordion-collapse collapse" data-bs-parent="#acneAvoidAccel">
+                                        <div class="accordion-body ">
+                                            <img src="https://i.pinimg.com/1200x/19/0f/51/190f51ef6bcda870e77cb52914f26181.jpg" class="accordion-img mb-2" alt="Sugars">
+                                            <p>Sugar causes insulin spikes, which trigger your glands to produce excess oil, leading to clogged pores.</p>
+                                            
+                                        </div>
+                                        
+                                            
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed fw-bold" data-bs-toggle="collapse" data-bs-target="#dairy">Highly Processed Dairy</button>
+                                    </h2>
+                                    <div id="dairy" class="accordion-collapse collapse" data-bs-parent="#acneAvoidAccel">
+                                        <div class="accordion-body ">
+                                            <img src="https://i.pinimg.com/1200x/2b/a9/c8/2ba9c83aaafef5a0c6fe822dd8578dcf.jpg" class="accordion-img mb-2" alt="Fatty Fish">
+                                            <p class="text-muted small">Some dairy products contain hormones that can disrupt your skin's natural balance and cause cystic acne.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Dullness Modal -->
+    <div class="modal fade" id="dullnessModal">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content shadow-lg">
+                <div class="modal-header border-0 p-4">
+                    <h3 class="">Dullness & Guts Health</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body p-0">
+                    <ul class="nav nav-tabs nav-fill" id="acneTabs">
+                        <li class="nav-item">
+                            <button class="nav-link active tab-eat" data-bs-toggle="tab" data-bs-target="#dull-eat">WHAT TO EAT</button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="nav-link tab-avoid" data-bs-toggle="tab" data-bs-target="#dull-avoid">WHAT TO AVOID</button>
+                        </li>
+                    </ul>
+
+                    <div class="tab-content p-4">
+                        <div class="tab-pane fade show active" id="dull-eat">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <img src="https://i.pinimg.com/1200x/36/7b/21/367b21c5b146e03016e01a8b1b96370b.jpg" class="accordion-img mb-2" alt="Ginger">
+                                    <h6 class="fw-bold">Antioxidant Berries</h6>
+                                    <p class="small text-muted">Blueberries and strawberries fight free radicals that make skin look gray and tired.</p>
+                                </div>
+                                <div class="col-md-6">
+                                    <img src="https://i.pinimg.com/1200x/dd/46/16/dd4616458da45d21ad51bf47ceb3a5c9.jpg" class="accordion-img mb-2" alt="Fatty Fish">
+                                    <h6 class="fw-bold">Vitamin C (Citrus)</h6>
+                                    <p class="small text-muted">Oranges and kiwis help your body produce collagen for that natural "glow" from within.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="dull-avoid">
+                            <div class="accordion accordion-flush" id="dullAvoidAccel">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed fw-bold" data-bs-toggle="collapse" data-bs-target="#alcohol">Excessive Caffeine/Alcohol</button>
+                                    </h2>
+                                    <div id="alcohol" class="accordion-collapse collapse" data-bs-parent="#dullAvoidAccel">
+                                        <div class="accordion-body ">
+                                            
+                                                <img src="https://i.pinimg.com/1200x/f8/b3/19/f8b319ce9715f15000cbce3915f6d432.jpg" class="accordion-img mb-2" alt="alcohol">
+                                                <p class="text-muted small">Both dehydrate the skin, leading to a sunken, dull appearance and emphasizing fine lines.</p>
+                                            
+                                            
+                                        </div>
+                                        
+                                            
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed fw-bold" data-bs-toggle="collapse" data-bs-target="#salt">High-Sodium Foods</button>
+                                    </h2>
+                                    <div id="salt" class="accordion-collapse collapse" data-bs-parent="#dullAvoidAccel">
+                                        <div class="accordion-body ">
+                                            <img src="https://i.pinimg.com/1200x/61/86/60/6186608df6ff77470e50e6ddc7966c28.jpg" class="accordion-img mb-2" alt="Fatty Fish">
+                                            <p class="text-muted small">Too much salt causes water retention and puffiness, making your complexion look lackluster.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Dry Modal -->
+    <div class="modal fade" id="dryModal">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content shadow-lg">
+                <div class="modal-header border-0 p-4">
+                    <h3 class="">Dehydration & Guts Health</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body p-0">
+                    <ul class="nav nav-tabs nav-fill" id="acneTabs">
+                        <li class="nav-item">
+                            <button class="nav-link active tab-eat" data-bs-toggle="tab" data-bs-target="#dry-eat">WHAT TO EAT</button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="nav-link tab-avoid" data-bs-toggle="tab" data-bs-target="#dry-avoid">WHAT TO AVOID</button>
+                        </li>
+                    </ul>
+
+                    <div class="tab-content p-4">
+                        <div class="tab-pane fade show active" id="dry-eat">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <img src="https://i.pinimg.com/736x/01/88/87/01888771ef8926aac033eccb2a7dec56.jpg" class="accordion-img mb-2" alt="Ginger">
+                                    <h6 class="fw-bold">Healthy Fats (Avocado)</h6>
+                                    <p class="small text-muted">Monounsaturated fats keep the skin's surface moist, flexible, and strong.</p>
+                                </div>
+                                <div class="col-md-6">
+                                    <img src="https://i.pinimg.com/1200x/01/4a/ee/014aeee7ced5fd888ec5b3ef91a6d59b.jpg" class="accordion-img mb-2" alt="Fatty Fish">
+                                    <h6 class="fw-bold">Omega-3 (Walnuts/Seeds)</h6>
+                                    <p class="small text-muted">Helps seal in moisture and prevents the "flaky" texture by repairing the skin barrier.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="dry-avoid">
+                            <div class="accordion accordion-flush" id="dryAvoidAccel">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed fw-bold" data-bs-toggle="collapse" data-bs-target="#fried">Fried/Trans Fats</button>
+                                    </h2>
+                                    <div id="fried" class="accordion-collapse collapse" data-bs-parent="#dryAvoidAccel">
+                                        <div class="accordion-body ">
+                                            
+                                                <img src="https://i.pinimg.com/1200x/28/09/af/2809afd64eb1bc21289e54fc497b0054.jpg" class="accordion-img mb-2" alt="fried">
+                                                <p class="text-muted small">Poor quality oils can cause inflammation that damages the skin barrier, leading to moisture loss.</p>
+                                            
+                                            
+                                        </div>
+                                        
+                                            
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed fw-bold" data-bs-toggle="collapse" data-bs-target="#sugar">Refined Sugars</button>
+                                    </h2>
+                                    <div id="sugar" class="accordion-collapse collapse" data-bs-parent="#dryAvoidAccel">
+                                        <div class="accordion-body ">
+                                            <img src="https://i.pinimg.com/1200x/19/0f/51/190f51ef6bcda870e77cb52914f26181.jpg" class="accordion-img mb-2" alt="sugar">
+                                            <p class="text-muted small">Sugar causes "glycation," which weakens collagen and elastin, making dry skin feel even tighter.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="footer">
+            <footer class="footer mt-5">
+            <div class="container">
+                <div class="row">
+                    
+                    <div class="col-lg-3 footer-logo-info text-md-center text-sm-center">
+                        <img class="mb-4 footer-logo  text-md-center text-sm-center" src="https://i.pinimg.com/736x/a1/4a/e4/a14ae46b19e61330b813312084d872af.jpg" width="110px" height="110px" alt="">
+                        <p class="footer-logo-text">Learn to discover, grasp and nourish your skin here.</p>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <h6 class="d-none d-lg-block">Navigation</h6>
+                        <ul class="footer-links d-none d-lg-block">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="index.html">Pages</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="contact.html">Services</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <h6 class="d-none d-lg-block">Services</h6>
+                        <ul class="footer-links d-none d-lg-block">
+                            <li><a href="contact.html">Contact Us</a></li>
+                            <li><a href="faq.html">FAQs</a></li>
+                            <li><a href="contact.html">Booking</a></li>
+                            <li><a href="index.html #footer">Pages</a></li>
+                        </ul>
+                    </div> 
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <h6 class="d-none d-lg-block">Quick Links</h6>
+                        <ul class="footer-links d-none d-lg-block">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="contact.htl">Blog</a></li>
+                            <li><a href="index.html #footer">404</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 accordion-footer-element">
+                        <div class="container d-lg-none d-md-block d-sm-block">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <div class="accordion" id="footerAccordion">
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#navigation">Navigation</button>
+                                            </h2>
+                                            <div class="accordion-collapse collapse" id="navigation" data-bs-parent="#footerAccordion">
+                                                <div class="accordion-body">
+                                                    <div class="row">
+                                                        <div class="col-md-8">
+                                                            <ul class="footer-links">
+                                                                <li><a href="index.html">Home</a></li>
+                                                                <li><a href="index.html #footer">Pages</a></li>
+                                                                <li><a href="about.html">About Us</a></li>
+                                                                <li><a href="about.html">Services</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#services">Services</button>
+                                            </h2>
+                                            <div class="accordion-collapse collapse" id="services" data-bs-parent="#footerAccordion">
+                                                <div class="accordion-body">
+                                                    <div class="row">
+                                                        <div class="col-md-8">
+                                                            <ul class="footer-links">
+                                                                <li><a href="contact.html">Contact Us</a></li>
+                                                                <li><a href="faq.html">FAQs</a></li>
+                                                                <li><a href="contact.html">Booking</a></li>
+                                                                <li><a href="index.html #footer">Pages</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#quick-links">Quick Links</button>
+                                            </h2>
+                                            <div class="accordion-collapse collapse" id="quick-links" data-bs-parent="#footerAccordion">
+                                                <div class="accordion-body">
+                                                    <div class="row">
+                                                        <div class="col-md-8">
+                                                            <ul class="footer-links">
+                                                                <li><a href="index.html">Home</a></li>
+                                                                <li><a href="contact.html">Contact</a></li>
+                                                                <li><a href="about.html">Blog</a></li>
+                                                                <li><a href="index.html #footer">404</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                <div class="row contact-info align-items-center mt-4 border-bottom pb-4">
+                    <div class="col-lg-3 col-md-12">
+                        <i class="bi bi-geo-alt-fill me-2" data-bs-toggle="tooltip" data-bs-title="Address"> </i> Mayangon, Yangon, MM
+                    </div>
+                    <div class="col-lg-3 col-md-12">
+                        <i class="bi bi-telephone-fill me-2" data-bs-toggle="tooltip" data-bs-title="Phone No"></i> +95 9256129389
+                    </div>
+                    <div class="col-lg-3 col-md-12">
+                        <i class="bi bi-envelope-fill me-2" data-bs-toggle="tooltip" data-bs-title="Gmail"></i> aerinstudio@gmail.com
+                    </div>
+                    
+                    <div class="col-lg-3 col-md-12 text-md-end social-icons">
+                        <i class="bi bi-telegram" data-bs-toggle="tooltip" data-bs-title="Telegram"></i>
+                        <i class="bi bi-facebook" data-bs-toggle="tooltip" data-bs-title="Facebook"></i>
+                        <i class="bi bi-messenger"data-bs-toggle="tooltip" data-bs-title="Messenger"></i>
+                    </div>
+                </div>
+            
+                <div class="py-4 text-center">
+                    <small class="text-muted">&copy; 2026 Aerin Studio &bull; All Rights Reserved</small>
+                </div>
+            </div>
+        </footer>
+    </section>
+                    
+ 
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+    
+   
+</body>
+</html>

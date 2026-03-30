@@ -1,0 +1,194 @@
+/* Footer section */
+.footer{
+    background-color: #fff; border-top: 1px solid #dee2e6; padding-top: 50px; color: #444;
+}
+.footer-logo-text{
+    font-style: italic; font-size: 0.9rem; color: #666; width: 200px;
+}
+.footer h6{
+    font-weight: bold; color: #4a6a77; margin-bottom: 20px;
+}
+.footer-links{
+    list-style: none; padding: 0;
+}
+.footer-links li{
+    margin-bottom: 8px;
+}
+.footer-links a{
+    text-decoration: none; color: #444; font-size: 0.95rem;
+}
+.contact-info{
+    font-size: 0.95rem; padding: 30px 0;
+}
+.social-icons i{
+    font-size: 1.5rem; color: #4a6a77; margin-left: 15px;
+}
+.footer-links a:hover{
+    color: #5a7d8c;
+}
+
+.contact-info {
+    font-size: 0.95rem;
+    padding: 30px 0;
+    row-gap: 12px;
+}
+
+.contact-info  i{
+    color:#4a6a77;
+    font-size: 1.1rem;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+
+.contact-info .col-lg-3 {
+
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+
+
+.social-icons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 14px;
+}
+
+.social-icons i {
+    font-size: 1.4rem;
+    color: #4a6a77;
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+
+.social-icons i:hover {
+    color: #5a7d8c;
+    transform: translateY(-2px);
+}
+@media (max-width: 991.98px) {
+    /* 1. Logo and Branding Text */
+    .footer-logo-info {
+        text-align: center !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 25px;
+    }
+
+    .footer-logo-text {
+        width: 100%; 
+        max-width: 250px; /* Limits width so it wraps nicely like the design */
+        margin: 0 auto 15px;
+        text-align: center;
+    }
+
+    /* 2. Social Icons Alignment */
+    .social-icons {
+        display: flex;
+        justify-content: center !important; /* Forces icons to center */
+        width: 100%;
+        margin-bottom: 20px;
+        gap: 20px;
+    }
+
+    /* 3. Accordion Styling - To match the clean grey lines */
+    #footerAccordion .accordion-item {
+        border: none;
+        border-bottom: 1px solid #dee2e6 !important;
+    }
+
+    #footerAccordion .accordion-button {
+        padding: 16px 0;
+        background-color: transparent !important;
+        font-size: 1rem;
+    }
+
+    #footerAccordion .accordion-body {
+        padding: 0 0 15px 10px; /* Slight indent for the links */
+        text-align: left;
+    }
+
+    /* 4. Contact Info - The "Centered Block" Look */
+    .contact-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Centers the child columns */
+        text-align: left;
+        margin-top: 20px;
+    }
+
+    .contact-info .col-md-12 {
+        display: flex;
+        justify-content: flex-start; /* Keeps icon and text together */
+        width: fit-content; /* Critical: allows the block to be centered by parent */
+        margin-bottom: 12px;
+        font-size: 0.9rem;
+    }
+
+    /* 5. Final Bottom Line & Copyright */
+    .border-bottom {
+        border-bottom: 1px solid #dee2e6 !important;
+    }
+}
+
+.accordion-footer-element {
+    margin-top: 10px;
+}
+
+#footerAccordion .accordion-item {
+    border: none;
+    border-bottom: 1px solid #e5e5e5;
+    background-color: transparent;
+}
+
+
+#footerAccordion .accordion-button {
+    background-color: transparent;
+    color: #4a6a77;
+    font-weight: 600;
+    font-size: 0.95rem;
+    padding: 14px 0;
+    box-shadow: none;
+}
+
+
+#footerAccordion .accordion-button:not(.collapsed) {
+    background-color: transparent;
+    color: #5a7d8c;
+}
+
+
+#footerAccordion .accordion-button::after {
+    transform: scale(0.85);
+}
+
+
+#footerAccordion .accordion-collapse {
+    transition: all 0.3s ease;
+}
+
+
+#footerAccordion .accordion-body {
+    padding: 8px 0 14px 0;
+}
+
+
+#footerAccordion .footer-links {
+    margin-top: 4px;
+}
+
+#footerAccordion .footer-links li {
+    margin-bottom: 10px;
+}
+#footerAccordion .footer-links a {
+    font-size: 0.9rem;
+    color: #444;
+    transition: color 0.2s ease;
+}
+
+#footerAccordion .footer-links a:hover {
+    color: #5a7d8c;
+}
